@@ -14,7 +14,7 @@ se.open()
 time.sleep(5) 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = '10.43.177.25'
+host = ''
 port = 50000
 s.connect((host, port))
 print ('Connected to', host)
