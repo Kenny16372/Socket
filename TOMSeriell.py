@@ -9,7 +9,7 @@ maxPH = (int(str(input("Maximaler PH-Wert"))))
 #maxPH = (int(str(k1)))
 
 u = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = '10.16.122.91'
+host = ''
 port = 8008
 u.bind((host, port))
 u.listen(5)
