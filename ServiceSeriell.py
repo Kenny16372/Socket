@@ -4,8 +4,8 @@ import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 t = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host1 = '10.43.177.25'
-host2 = '10.16.122.91'
+host1 = ''
+host2 = ''
 port1 = 50000
 port2 = 8008
 s.connect((host1, port1))
